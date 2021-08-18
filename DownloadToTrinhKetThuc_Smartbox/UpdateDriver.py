@@ -14,9 +14,8 @@ options.add_argument('--headless')
 options.add_argument('--disable-gpu')
 
 # os='win32'
-os = 'mac64'
-driver_executable = '/Users/quanghuy/chromedriver/chromedriver'
-
+os = 'mac64_m1'
+driver_executable = '/Users/quanghuy/Code/ChromeDriver_Selenium/chromedriver'
 
 def check_browser():
     driver = None

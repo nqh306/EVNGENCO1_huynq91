@@ -7,7 +7,7 @@ from selenium.webdriver.support import expected_conditions as ec
 import xlrd
 from xlrd import sheet
 from selenium.common.exceptions import NoSuchElementException     
-browser = webdriver.Chrome('/Users/quanghuy/chromedriver/chromedriver')
+browser = webdriver.Chrome('/Users/quanghuy/Code/ChromeDriver_Selenium/chromedriver')
 
 def check_exists_by_xpath(xpath):
     try:
